@@ -1,0 +1,12 @@
+C:\Users\andre\Documents\Projetos DEV\Prova\Banck.Api\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\Users\andre\Documents\Projetos DEV\Prova\Banck.Api\Domain\bin\Debug\net5.0\Domain.dll
+C:\Users\andre\Documents\Projetos DEV\Prova\Banck.Api\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\Users\andre\Documents\Projetos DEV\Prova\Banck.Api\Domain\bin\Debug\net5.0\Domain.pdb
+C:\Users\andre\Documents\Projetos DEV\Prova\Banck.Api\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
+C:\Users\andre\Documents\Projetos DEV\Prova\Banck.Api\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Documents\Projetos DEV\Prova\Banck.Api\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Users\andre\Documents\Projetos DEV\Prova\Banck.Api\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Users\andre\Documents\Projetos DEV\Prova\Banck.Api\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Projetos DEV\Prova\Banck.Api\Domain\obj\Debug\net5.0\Domain.dll
+C:\Users\andre\Documents\Projetos DEV\Prova\Banck.Api\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\Users\andre\Documents\Projetos DEV\Prova\Banck.Api\Domain\obj\Debug\net5.0\Domain.pdb

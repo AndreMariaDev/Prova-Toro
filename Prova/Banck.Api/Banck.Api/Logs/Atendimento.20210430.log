@@ -1,0 +1,50 @@
+2021-04-30 00:04:44.843 -03:00 [Information] Http Request Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 Request Body: 
+2021-04-30 00:05:00.827 -03:00 [Information] Http Response Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 TimeElapsed: 12,3047 Response Body: {"message":"Unauthorized"}User Information:null
+2021-04-30 00:06:28.879 -03:00 [Information] Http Request Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 Request Body: 
+2021-04-30 00:06:28.981 -03:00 [Information] Http Response Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 TimeElapsed: 8,2910 Response Body: {"message":"Unauthorized"}User Information:null
+2021-04-30 00:07:24.684 -03:00 [Information] Http Request Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 Request Body: 
+2021-04-30 00:09:00.680 -03:00 [Information] Http Response Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 TimeElapsed: 0,1979 Response Body: {"message":"Unauthorized"}User Information:null
+2021-04-30 00:09:03.163 -03:00 [Information] Http Request Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 Request Body: 
+2021-04-30 00:10:10.486 -03:00 [Information] Http Request Information:
+Schema:https Host: localhost:44301 Path: /api/UserCredentials/authenticate QueryString:  Request Body: {"username":"andre.maria","password":"qwer1234"}
+2021-04-30 00:10:14.272 -03:00 [Information] Http Response Information:
+Schema:https Host: localhost:44301 Path: /api/UserCredentials/authenticate QueryString:  TimeElapsed: 47,3083 Response Body: {"code":"3fa85f64-5717-4562-b3fc-2c963f66afa6","name":"Andre Maria","login":"andre.maria","email":"andremaria1980@gmail.com","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNmYTg1ZjY0LTU3MTctNDU2Mi1iM2ZjLTJjOTYzZjY2YWZhNiIsIm5iZiI6MTYxOTc1MjIxNCwiZXhwIjoxNjIwMzU3MDE0LCJpYXQiOjE2MTk3NTIyMTR9.c9uS0ANJt47JHM-WqxOacAkMinu95cHoaRCVB8z2WQk"}User Information:null
+2021-04-30 00:10:32.951 -03:00 [Information] Http Request Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 Request Body: 
+2021-04-30 00:10:59.566 -03:00 [Information] Http Response Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 TimeElapsed: 0,2667 Response Body: {"message":"Unauthorized"}User Information:null
+2021-04-30 00:11:02.450 -03:00 [Information] Http Request Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 Request Body: 
+2021-04-30 00:11:57.659 -03:00 [Information] Http Request Information:
+Schema:https Host: localhost:44301 Path: /api/UserCredentials/authenticate QueryString:  Request Body: {"username":"andre.maria","password":"qwer1234"}
+2021-04-30 00:12:04.663 -03:00 [Information] Http Response Information:
+Schema:https Host: localhost:44301 Path: /api/UserCredentials/authenticate QueryString:  TimeElapsed: 49,3120 Response Body: {"code":"3fa85f64-5717-4562-b3fc-2c963f66afa6","name":"Andre Maria","login":"andre.maria","email":"andremaria1980@gmail.com","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNmYTg1ZjY0LTU3MTctNDU2Mi1iM2ZjLTJjOTYzZjY2YWZhNiIsIm5iZiI6MTYxOTc1MjMyNCwiZXhwIjoxNjIwMzU3MTI0LCJpYXQiOjE2MTk3NTIzMjR9.nKp1YJ8-QFytek5u6TgzhGKyfU9Etc0JzNvCrQy0m6k"}User Information:null
+2021-04-30 00:12:13.842 -03:00 [Information] Http Request Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 Request Body: 
+2021-04-30 00:12:49.349 -03:00 [Information] Http Response Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 TimeElapsed: 0,3101 Response Body: {"message":"Unauthorized"}User Information:null
+2021-04-30 08:54:20.302 -03:00 [Information] Http Request Information:
+Schema:https Host: localhost:44301 Path: /api/UserCredentials/authenticate QueryString:  Request Body: {"username":"andre.maria","password":"qwer1234"}
+2021-04-30 08:54:28.012 -03:00 [Information] Http Response Information:
+Schema:https Host: localhost:44301 Path: /api/UserCredentials/authenticate QueryString:  TimeElapsed: 72,7299 Response Body: {"code":"3fa85f64-5717-4562-b3fc-2c963f66afa6","name":"Andre Maria","login":"andre.maria","email":"andremaria1980@gmail.com","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNmYTg1ZjY0LTU3MTctNDU2Mi1iM2ZjLTJjOTYzZjY2YWZhNiIsIm5iZiI6MTYxOTc4MzY2NywiZXhwIjoxNjIwMzg4NDY3LCJpYXQiOjE2MTk3ODM2Njd9.OmaHU4jjMzwbsfAnk2yRKlcpbQIMs1K0OYL9R32Wp9E"}User Information:null
+2021-04-30 08:55:01.232 -03:00 [Information] Http Request Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 Request Body: 
+2021-04-30 09:13:01.670 -03:00 [Information] Http Request Information:
+Schema:https Host: localhost:44301 Path: /api/UserCredentials/authenticate QueryString:  Request Body: {"username":"andre.maria","password":"qwer1234"}
+2021-04-30 09:13:12.846 -03:00 [Information] Http Response Information:
+Schema:https Host: localhost:44301 Path: /api/UserCredentials/authenticate QueryString:  TimeElapsed: 48,4585 Response Body: {"code":"3fa85f64-5717-4562-b3fc-2c963f66afa6","name":"Andre Maria","login":"andre.maria","email":"andremaria1980@gmail.com","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNmYTg1ZjY0LTU3MTctNDU2Mi1iM2ZjLTJjOTYzZjY2YWZhNiIsIm5iZiI6MTYxOTc4NDc5MiwiZXhwIjoxNjIwMzg5NTkyLCJpYXQiOjE2MTk3ODQ3OTJ9.Zj6bymyKSvhKLRr1AN1XcGvZfYsEDh8FbNXxkm3XyEY"}User Information:null
+2021-04-30 09:13:33.030 -03:00 [Information] Http Request Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 Request Body: 
+2021-04-30 09:14:24.222 -03:00 [Information] Http Response Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 TimeElapsed: 0,2451 Response Body: [{"name":"Andre Maria","email":"andremaria1980@gmail.com","phone":"+55 11 95146-2260","userCredentialsItens":null,"patrimonies":null,"bankAccount":null,"code":"3fa85f64-5717-4562-b3fc-2c963f66afa6","isActive":true,"create":"2021-04-30T01:28:20.387","userCreate":"3fa85f64-5717-4562-b3fc-2c963f66afa6","update":"2021-04-30T01:28:20.387","userUpdate":"3fa85f64-5717-4562-b3fc-2c963f66afa6"}]User Information:null
+2021-04-30 15:12:55.461 -03:00 [Information] Http Request Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 Request Body: 
+2021-04-30 15:13:10.654 -03:00 [Information] Http Response Information:
+Schema:https Host: localhost:44301 Path: /api/User QueryString: ?_offset=1&_limit=10 TimeElapsed: 0,4831 Response Body: {"message":"Unauthorized"}User Information:null

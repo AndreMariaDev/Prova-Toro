@@ -1,0 +1,17 @@
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\bin\Debug\net5.0\App.Application.deps.json
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\bin\Debug\net5.0\App.Application.dll
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\bin\Debug\net5.0\ref\App.Application.dll
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\bin\Debug\net5.0\App.Application.pdb
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\bin\Debug\net5.0\App.Shared.dll
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\bin\Debug\net5.0\App.Shared.pdb
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\obj\Debug\net5.0\App.Application.csprojAssemblyReference.cache
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\obj\Debug\net5.0\App.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\obj\Debug\net5.0\App.Application.AssemblyInfoInputs.cache
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\obj\Debug\net5.0\App.Application.AssemblyInfo.cs
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\obj\Debug\net5.0\App.Application.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\obj\Debug\net5.0\App.Application.csproj.CopyComplete
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\obj\Debug\net5.0\App.Application.dll
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\obj\Debug\net5.0\ref\App.Application.dll
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\obj\Debug\net5.0\App.Application.pdb
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\bin\Debug\net5.0\App.Infra.dll
+C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Application\bin\Debug\net5.0\App.Infra.pdb
