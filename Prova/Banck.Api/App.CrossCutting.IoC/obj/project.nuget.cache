@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TXfxjYdZV2D1mjU6ngG72KWUbtQ7a+2bMwr+YRrXbDR328WUgO6HJ1xyhAbScdsROFGI12BJAva0m4VAmRCEUg==",
+  "dgSpecHash": "W+9uUyYPfaKEkKnClhdhEPgRQTy8AwExKGjDqz2Qp78VMOsxZi5dGXQcTUqc4Gohcgcq9yGiJeh+VYSpQq/4XA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Banck.Api\\App.CrossCutting.IoC\\App.CrossCutting.IoC.csproj",
+  "projectFilePath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Banck.Api\\App.CrossCutting.IoC\\App.CrossCutting.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

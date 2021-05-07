@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cY+DzQNeKYuuuYkH8XUoH9ONd53A0huSIqzRgxzsLoo4uxBC18booQ1mlwCjMYfhrZeSn3HPi1ydEnowmpDLZg==",
+  "dgSpecHash": "FTuPy1884Y1LtVJp0My+/DeQZRi+SFn3mnAYTQs38GdciusqwKTIV4shSeqFPS+/D1L2H0ky5sKtf4kLwBb+nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Banck.Api\\Banck.Api\\Banck.Api.csproj",
+  "projectFilePath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Banck.Api\\Banck.Api\\Banck.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.5\\microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512",

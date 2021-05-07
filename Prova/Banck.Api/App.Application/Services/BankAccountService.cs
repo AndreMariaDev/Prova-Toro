@@ -39,8 +39,7 @@ namespace App.Application.Services
 
         public async Task<bool> RunTransaction(TransactionHistoryResponse entity)
         {
-            var resultRun = await _BankAccountRepository.RunTransaction(entity);
-            if (resultRun)
+            if (entity.OriginBranch == String.Format("{0}/ {1}", entity.TargetBranch, entity.TargetAccount))
             {
                 TransactionHistory itemTransaction = new TransactionHistory()
                 {
@@ -55,6 +54,26 @@ namespace App.Application.Services
                 };
                 _BrokerService.SendQueue<TransactionHistory>(itemTransaction, "Bank Transaction BC", _rabbitMQConfigurations);
                 return true;
+            }
+            else
+            {
+                var resultRun = await _BankAccountRepository.RunTransaction(entity);
+                if (resultRun)
+                {
+                    TransactionHistory itemTransaction = new TransactionHistory()
+                    {
+                        Event = entity.Event,
+                        TargetBank = entity.TargetBank,
+                        TargetBranch = entity.TargetBranch,
+                        TargetAccount = entity.TargetAccount,
+                        OriginBank = entity.OriginBank,
+                        OriginBranch = entity.OriginBranch,
+                        OriginDocument = entity.OriginDocument,
+                        Amount = entity.Amount
+                    };
+                    _BrokerService.SendQueue<TransactionHistory>(itemTransaction, "Bank Transaction BC", _rabbitMQConfigurations);
+                    return true;
+                }
             }
             return false;
         }

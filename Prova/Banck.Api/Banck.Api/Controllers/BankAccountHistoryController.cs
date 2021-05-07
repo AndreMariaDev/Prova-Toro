@@ -1,7 +1,9 @@
-﻿using System.Net;
+﻿using System;
+using System.Net;
 using System.Threading.Tasks;
 using App.Application.Interfaces;
 using App.Domain.Models;
+using Banck.Api.Helpers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Banck.Api.Controllers
@@ -28,5 +30,16 @@ namespace Banck.Api.Controllers
 
             });
         }
+
+        [HttpGet("GetBankAccountHistoryByUser")]
+        [Authorize]
+        public async Task<IActionResult> GetBankAccountHistoryByUser(Guid codeUser)
+        {
+            return await TryExecuteAction(async () =>
+            {
+                var result = await appService.GetBankAccountHistoryByUser(codeUser);
+                return StatusCode((int)HttpStatusCode.Created, result);
+            });
+        }
     }
-}
+} 

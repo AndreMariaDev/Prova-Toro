@@ -24,6 +24,7 @@ namespace App.Infra.Data.Context
         public DbSet<BankAccount> BankAccounts { get; set; }
         public DbSet<BankAccountHistory> BankAccountHistories { get; set; }
         public DbSet<TransactionHistory> TransactionHistories { get; set; }
+        public DbSet<Traded> Tradeds { get; set; }
         #endregion
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

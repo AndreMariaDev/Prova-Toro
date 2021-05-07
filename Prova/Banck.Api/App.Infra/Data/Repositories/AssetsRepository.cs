@@ -8,6 +8,7 @@ using System.Linq;
 using System.Data;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
+using App.Shared.Extensions;
 
 namespace App.Infra.Data.Repositories 
 { 
@@ -29,7 +30,7 @@ namespace App.Infra.Data.Repositories
                 var resultItensAssets = await itensAssets.ToListAsync();
                 foreach (var item in resultItensAssets)
                 {
-                    totalValuesAssets =  totalValuesAssets + (item.Value * (item.Amount == 0 ? 1 : item.Amount));
+                    totalValuesAssets =  totalValuesAssets + (item.Value);
                 }
             }
             
@@ -46,6 +47,20 @@ namespace App.Infra.Data.Repositories
                               UserCode = bankAccount.UserCode,
                               Name = this._context.Set<User>().AsNoTracking().FirstOrDefault(x=> x.Code == codeUser).Name
                           });
+            return result != null ? await result.ToListAsync() : null;
+        }
+
+        public async Task<List<TopFiveTraded>> GetTopFiveTradedInSeventeDays()
+        {
+            var result = (from a in this._context.Set<Assets>().AsNoTracking()
+                               join t in this._context.Set<Traded>().AsNoTracking()
+                               on a.AddedStockMarket equals t.AddedStockMarket into all
+                               from top in all.DefaultIfEmpty()
+                               select new TopFiveTraded() {
+                                   AddedStockMarket = top.AddedStockMarket,
+                                   Value = top.Value
+                               });
+
             return result != null ? await result.ToListAsync() : null;
         }
 
@@ -75,7 +90,7 @@ namespace App.Infra.Data.Repositories
                         await this._context.SaveChangesAsync();
 
                         var amount = Account.Amount;
-                        Account.Amount = amount - (entity.Value * (entity.Amount == 0 ? 1: entity.Amount));
+                        Account.Amount = amount - entity.Value;
 
                         this._context.Set<BankAccount>().Update(Account);
                         await this._context.SaveChangesAsync();

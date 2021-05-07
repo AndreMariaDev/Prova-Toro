@@ -20,5 +20,17 @@ namespace App.Infra.Data.Repository
  
         }
         #endregion
+
+        public async Task<List<BankAccountHistory>> GetBankAccountHistoryByUser(Guid codeUser)
+        {
+            var result = (from a in this._context.Set<BankAccountHistory>().AsNoTracking()
+                          join t in this._context.Set<BankAccount>().AsNoTracking()
+                          on a.BankAccountCode equals t.Code into all
+                          from top in all.DefaultIfEmpty()
+                          where top.UserCode == codeUser
+                          select a); 
+
+            return result != null ? await result.ToListAsync() : null;
+        }
     } 
 } 

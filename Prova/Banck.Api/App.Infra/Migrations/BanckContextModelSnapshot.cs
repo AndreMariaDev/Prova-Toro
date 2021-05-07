@@ -152,6 +152,38 @@ namespace App.Infra.Migrations
                     b.ToTable("BankAccountHistories");
                 });
 
+            modelBuilder.Entity("App.Domain.Models.Traded", b =>
+                {
+                    b.Property<Guid>("Code")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("AddedStockMarket")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Create")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("Update")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("UserCreate")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("UserUpdate")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<decimal>("Value")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Code");
+
+                    b.ToTable("Tradeds");
+                });
+
             modelBuilder.Entity("App.Domain.Models.TransactionHistory", b =>
                 {
                     b.Property<Guid>("Code")
@@ -222,6 +254,9 @@ namespace App.Infra.Migrations
 
                     b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TypeUser")
+                        .HasColumnType("int");
 
                     b.Property<DateTime?>("Update")
                         .HasColumnType("datetime2");

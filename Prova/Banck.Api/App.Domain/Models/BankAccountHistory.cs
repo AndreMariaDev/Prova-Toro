@@ -17,7 +17,7 @@ namespace App.Domain.Models
 
     public enum enumTypeMoving
     {
-        Umdefined = 0,
+        Undefined = 0,
         BankDraft = 1,
         BankDeposit = 2
     }

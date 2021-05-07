@@ -5,6 +5,7 @@ using App.Infra.Data.Interfaces;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace App.Application.Services 
 { 
@@ -30,11 +31,17 @@ namespace App.Application.Services
                     Email = user.Email,
                     Phone = user.Phone,
                     Login = userCredentials.Login,
+                    TypeUser = (App.Shared.Extensions.enumTypeUser)(int)user.TypeUser,
                     Password = userCredentials.Password,
                     CredentialsType = (App.Shared.Extensions.enumCredentialsType)(int)userCredentials.CredentialsType
                 };
             }
             return userView;
+        }
+
+        public async Task<IEnumerable<UserBank>> GetListUser() 
+        {
+            return await _UserRepository.GetListUser();
         }
     } 
 } 

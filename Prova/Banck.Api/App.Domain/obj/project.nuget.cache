@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i1/1nH58RnjhXs4hli0v9BkZkR0XH6LAd7Ntfnb871YD1Qt1vL+2vNFN5/aJ6UlIbWmuCmCCp/02oOX6WzLVhw==",
+  "dgSpecHash": "V9gc47+ga0ITE+/5mq5Os8FSViH/KiTDvn13JlQ9zovC22LTiHZjfNpvByg8A2taajZXIi4KAtf+ju+JZKZouw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Banck.Api\\App.Domain\\App.Domain.csproj",
+  "projectFilePath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Banck.Api\\App.Domain\\App.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

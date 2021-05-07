@@ -32,6 +32,22 @@ namespace Banck.Api.Controllers
                     return StatusCode((int)HttpStatusCode.BadRequest, "Insufficient funds");
                 }
             }); 
-        } 
+        }
+
+        [HttpGet("GetTopFiveTradedInSeventeDays")]
+        [Authorize]
+        public async Task<IActionResult> GetTopFiveTradedInSeventeDays() 
+        {
+            return await TryExecuteAction(async () =>
+            {
+                var result = await appService.GetTopFiveTradedInSeventeDays();
+                if (null != result)
+                    return StatusCode((int)HttpStatusCode.Created, result);
+                else
+                {
+                    return StatusCode((int)HttpStatusCode.BadRequest, "Insufficient funds");
+                }
+            });
+        }
     } 
 } 

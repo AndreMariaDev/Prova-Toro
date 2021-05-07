@@ -44,7 +44,7 @@ namespace Banck.Api
             });
 
             services.AddDbContext<BanckContext>(options =>
-                options.UseSqlServer("Data Source=LAPTOP-ANDREMAR;Integrated Security=True").UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)
+                options.UseSqlServer("Data Source=LAPTOP-ANDREMAR;Initial Catalog=qa_bank;Integrated Security=True").UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)
                 , ServiceLifetime.Transient
             );
 

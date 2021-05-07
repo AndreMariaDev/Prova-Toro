@@ -22,7 +22,7 @@ namespace App.Domain.Models
 
     public enum enumTypeAccount
     {
-        Umdefined = 0,
+        Undefined = 0,
         LegalPerson = 1,
         PhysicalPerson = 2
     }

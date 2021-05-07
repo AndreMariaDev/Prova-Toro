@@ -65,7 +65,15 @@ namespace App.Infra.Data.Repositories
                         var history = new BankAccountHistory();
                         history.BankAccountCode = Account.Code;
                         history.MovingDate = DateTime.Now;
-                        history.TypeMoving = enumTypeMoving.BankDraft;
+                        if (entity.OriginBranch == String.Format("{0}/ {1}", entity.TargetBranch, entity.TargetAccount))
+                        {
+                            history.TypeMoving = enumTypeMoving.BankDeposit;
+                        }
+                        else 
+                        {
+                            history.TypeMoving = enumTypeMoving.BankDraft;
+                        }
+                        
                         history.AmountMoved = entity.Amount;
                         history.Create = DateTime.Now;
                         history.IsActive = true;

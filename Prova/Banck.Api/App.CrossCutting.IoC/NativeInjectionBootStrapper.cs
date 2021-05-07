@@ -25,6 +25,7 @@ namespace App.CrossCutting.IoC
             services.AddScoped<IBankAccountRepository, BankAccountRepository>();
             services.AddScoped<IBankAccountHistoryRepository, BankAccountHistoryRepository>();
             services.AddScoped<ITransactionHistoryRepository, TransactionHistoryRepository>();
+            services.AddScoped<ITradedRepository, TradedRepository>();
             services.AddScoped<IUserCredentialsRepository, UserCredentialsRepository>();
 
             services.AddScoped<IUserService, UserService>();
@@ -33,6 +34,7 @@ namespace App.CrossCutting.IoC
             services.AddScoped<IBankAccountHistoryService, BankAccountHistoryService>();
             services.AddScoped<IPatrimonyService, PatrimonyService>();
             services.AddScoped<ITransactionHistoryService, TransactionHistoryService>();
+            services.AddScoped<ITradedService, TradedService>();
             services.AddScoped<IUserCredentialsService, UserCredentialsService>();
 
             services.AddSingleton<IBrokerService, BrokerService>();

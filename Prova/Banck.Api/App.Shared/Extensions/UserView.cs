@@ -11,6 +11,7 @@ namespace App.Shared.Extensions
         public String Name { get; set; }
         public String Email { get; set; }
         public String Phone { get; set; }
+        public enumTypeUser TypeUser { get; set; }
         public String Login { get; set; }
         public String Password { get; set; }
         public enumCredentialsType CredentialsType { get; set; }
@@ -18,8 +19,15 @@ namespace App.Shared.Extensions
 
     public enum enumCredentialsType
     {
-        Umdefined = 0,
+        Undefined = 0,
         CheckingAccount = 1,
         InvestmentAccount = 2
+    }
+
+    public enum enumTypeUser
+    {
+        Undefined = 0,
+        Accountant = 1,
+        Admin = 2
     }
 }

@@ -17,7 +17,7 @@ namespace App.Domain.Models
 
     public enum enumCredentialsType 
     {
-        Umdefined = 0,
+        Undefined = 0,
         CheckingAccount = 1,
         InvestmentAccount =2
     }
