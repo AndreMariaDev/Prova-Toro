@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\TBC\\App.TBC\\App.Application\\App.Application.csproj": {}
+    "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\TBC\\App.TBC\\App.Application\\App.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\TBC\\App.TBC\\App.Application\\App.Application.csproj": {
+    "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\TBC\\App.TBC\\App.Application\\App.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\TBC\\App.TBC\\App.Application\\App.Application.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\TBC\\App.TBC\\App.Application\\App.Application.csproj",
         "projectName": "App.Application",
-        "projectPath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\TBC\\App.TBC\\App.Application\\App.Application.csproj",
+        "projectPath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\TBC\\App.TBC\\App.Application\\App.Application.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\TBC\\App.TBC\\App.Application\\obj\\",
+        "outputPath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\TBC\\App.TBC\\App.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\TBC\\App.TBC\\App.Shared\\App.Shared.csproj": {
-                "projectPath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\TBC\\App.TBC\\App.Shared\\App.Shared.csproj"
+              "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\TBC\\App.TBC\\App.Shared\\App.Shared.csproj": {
+                "projectPath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\TBC\\App.TBC\\App.Shared\\App.Shared.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\TBC\\App.TBC\\App.Shared\\App.Shared.csproj": {
+    "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\TBC\\App.TBC\\App.Shared\\App.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\TBC\\App.TBC\\App.Shared\\App.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\TBC\\App.TBC\\App.Shared\\App.Shared.csproj",
         "projectName": "App.Shared",
-        "projectPath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\TBC\\App.TBC\\App.Shared\\App.Shared.csproj",
+        "projectPath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\TBC\\App.TBC\\App.Shared\\App.Shared.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\TBC\\App.TBC\\App.Shared\\obj\\",
+        "outputPath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\TBC\\App.TBC\\App.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

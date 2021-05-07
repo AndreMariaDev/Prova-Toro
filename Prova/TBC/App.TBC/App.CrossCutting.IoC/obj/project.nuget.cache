@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AHBDc3ypYcmGgZw8kdAlvbXJ48jJmRgmZXQkYd9iXFgex13HjCpRhC7zBj66jay7ls7H9UrLct7RwI7/kSqSMg==",
+  "dgSpecHash": "I1StzTcxXZyq+HvcxDeuLqlmVQGq96RzWbkDBT0i590RNxOquSBC244v0DBEOkI4hUfEEgzaqdUp6ENuW3FF0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\TBC\\App.TBC\\App.CrossCutting.IoC\\App.CrossCutting.IoC.csproj",
+  "projectFilePath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\TBC\\App.TBC\\App.CrossCutting.IoC\\App.CrossCutting.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
