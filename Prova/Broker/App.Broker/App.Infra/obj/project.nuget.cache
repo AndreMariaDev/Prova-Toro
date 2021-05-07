@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JbbEB3i/s99hxrDc6mGAbMkTEhtCYRk+YmQDWW2W065nOpLx9PSnG0gUwLGeR4dBenqr/j1C8uTwJC7nC/Jlng==",
+  "dgSpecHash": "lvs8i25nxB5x3RD4ReIEHNWvEXZGOv+bqcUKRH5VhOYErycbODK2EtufmbUfwjqi9jckPQ2KoZi6DFvSMCdfdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.Infra\\App.Infra.csproj",
+  "projectFilePath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.Infra\\App.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

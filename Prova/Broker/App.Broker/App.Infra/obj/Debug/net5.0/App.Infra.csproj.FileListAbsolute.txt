@@ -16,3 +16,21 @@ C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Infra\obj\Debu
 C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Infra\obj\Debug\net5.0\ref\App.Infra.dll
 C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Infra\obj\Debug\net5.0\App.Infra.pdb
 C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.Infra\obj\Debug\net5.0\App.Infra.genruntimeconfig.cache
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\bin\Debug\net5.0\App.Infra.deps.json
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\bin\Debug\net5.0\App.Infra.runtimeconfig.json
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\bin\Debug\net5.0\App.Infra.runtimeconfig.dev.json
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\bin\Debug\net5.0\App.Infra.dll
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\bin\Debug\net5.0\ref\App.Infra.dll
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\bin\Debug\net5.0\App.Infra.pdb
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\bin\Debug\net5.0\App.Shared.dll
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\bin\Debug\net5.0\App.Shared.pdb
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\obj\Debug\net5.0\App.Infra.csprojAssemblyReference.cache
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\obj\Debug\net5.0\App.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\obj\Debug\net5.0\App.Infra.AssemblyInfoInputs.cache
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\obj\Debug\net5.0\App.Infra.AssemblyInfo.cs
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\obj\Debug\net5.0\App.Infra.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\obj\Debug\net5.0\App.Infra.csproj.CopyComplete
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\obj\Debug\net5.0\App.Infra.dll
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\obj\Debug\net5.0\ref\App.Infra.dll
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\obj\Debug\net5.0\App.Infra.pdb
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.Infra\obj\Debug\net5.0\App.Infra.genruntimeconfig.cache

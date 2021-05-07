@@ -6215,11 +6215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.CrossCutting.IoC\\App.CrossCutting.IoC.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.CrossCutting.IoC\\App.CrossCutting.IoC.csproj",
       "projectName": "App.CrossCutting.IoC",
-      "projectPath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.CrossCutting.IoC\\App.CrossCutting.IoC.csproj",
+      "projectPath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.CrossCutting.IoC\\App.CrossCutting.IoC.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.CrossCutting.IoC\\obj\\",
+      "outputPath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.CrossCutting.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6236,14 +6236,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.Application\\App.Application.csproj": {
-              "projectPath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.Application\\App.Application.csproj"
+            "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.Application\\App.Application.csproj": {
+              "projectPath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.Application\\App.Application.csproj"
             },
-            "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.Infra\\App.Infra.csproj": {
-              "projectPath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.Infra\\App.Infra.csproj"
+            "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.Infra\\App.Infra.csproj": {
+              "projectPath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.Infra\\App.Infra.csproj"
             },
-            "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.Shared\\App.Shared.csproj": {
-              "projectPath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.Shared\\App.Shared.csproj"
+            "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.Shared\\App.Shared.csproj": {
+              "projectPath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.Shared\\App.Shared.csproj"
             }
           }
         }

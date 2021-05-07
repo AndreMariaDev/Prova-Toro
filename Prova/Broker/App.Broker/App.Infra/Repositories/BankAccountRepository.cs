@@ -38,13 +38,20 @@ namespace App.Infra.Data.Repositories
             {
                 try
                 {
-                    var Account = this._context.Set<BankAccount>().AsNoTracking().FirstOrDefault(x => x.AccountNumber == entity.TargetAccount && x.Branch == entity.TargetBranch);
+                    var Account = await this._context.Set<BankAccount>().AsNoTracking().FirstOrDefaultAsync(x => x.AccountNumber == entity.TargetAccount && x.Branch == entity.TargetBranch);
                     if (null != Account)
                     {
                         var history = new BankAccountHistory();
                         history.BankAccountCode = Account.Code;
                         history.MovingDate = DateTime.Now;
-                        history.TypeMoving = enumTypeMoving.BankDraft;
+                        if (entity.OriginBranch == String.Format("{0}/ {1}", entity.TargetBranch, entity.TargetAccount))
+                        {
+                            history.TypeMoving = enumTypeMoving.BankDeposit;
+                        }
+                        else
+                        {
+                            history.TypeMoving = enumTypeMoving.BankDraft;
+                        }
                         history.AmountMoved = entity.Amount;
                         history.Create = DateTime.Now;
                         history.IsActive = true;
@@ -55,12 +62,13 @@ namespace App.Infra.Data.Repositories
                         await this._context.SaveChangesAsync();
 
                         var amount = Account.Amount;
+
                         Account.Amount = amount + entity.Amount;
 
                         this._context.Set<BankAccount>().Update(Account);
                         await this._context.SaveChangesAsync();
 
-                        transaction.Commit();
+                        await transaction.CommitAsync();
                         return true;
                     }
                     return false;
@@ -68,9 +76,12 @@ namespace App.Infra.Data.Repositories
                 }
                 catch (Exception ex)
                 {
-                    transaction.Rollback();
+                    await transaction.RollbackAsync();
                     Log.Error(String.Format("Error Method AddAsset: {0}", ex.Message));
-                    throw;
+                    return false;
+                }
+                finally {
+                    await transaction.DisposeAsync();
                 }
             }
         }

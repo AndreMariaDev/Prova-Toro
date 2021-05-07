@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.Shared\\App.Shared.csproj": {}
+    "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.Shared\\App.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.Shared\\App.Shared.csproj": {
+    "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.Shared\\App.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.Shared\\App.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.Shared\\App.Shared.csproj",
         "projectName": "App.Shared",
-        "projectPath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.Shared\\App.Shared.csproj",
+        "projectPath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.Shared\\App.Shared.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.Shared\\obj\\",
+        "outputPath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -17,3 +17,23 @@ C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.CrossCutting.I
 C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.CrossCutting.IoC\obj\Debug\net5.0\App.CrossCutting.IoC.pdb
 C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.CrossCutting.IoC\bin\Debug\net5.0\App.Infra.dll
 C:\Users\andre\Documents\Projetos DEV\Prova\Broker\App.Broker\App.CrossCutting.IoC\bin\Debug\net5.0\App.Infra.pdb
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\bin\Debug\net5.0\appsettings.json
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\bin\Debug\net5.0\App.CrossCutting.IoC.deps.json
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\bin\Debug\net5.0\App.CrossCutting.IoC.dll
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\bin\Debug\net5.0\ref\App.CrossCutting.IoC.dll
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\bin\Debug\net5.0\App.CrossCutting.IoC.pdb
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\bin\Debug\net5.0\App.Application.dll
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\bin\Debug\net5.0\App.Infra.dll
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\bin\Debug\net5.0\App.Shared.dll
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\bin\Debug\net5.0\App.Application.pdb
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\bin\Debug\net5.0\App.Infra.pdb
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\bin\Debug\net5.0\App.Shared.pdb
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\obj\Debug\net5.0\App.CrossCutting.IoC.csprojAssemblyReference.cache
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\obj\Debug\net5.0\App.CrossCutting.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\obj\Debug\net5.0\App.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\obj\Debug\net5.0\App.CrossCutting.IoC.AssemblyInfo.cs
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\obj\Debug\net5.0\App.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\obj\Debug\net5.0\App.CrossCutting.IoC.csproj.CopyComplete
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\obj\Debug\net5.0\App.CrossCutting.IoC.dll
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\obj\Debug\net5.0\ref\App.CrossCutting.IoC.dll
+C:\Users\andre\Documents\GitHub\Prova-Toro\Prova\Broker\App.Broker\App.CrossCutting.IoC\obj\Debug\net5.0\App.CrossCutting.IoC.pdb

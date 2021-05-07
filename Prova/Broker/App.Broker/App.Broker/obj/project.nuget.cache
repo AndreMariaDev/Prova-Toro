@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LKW3AdCBAGAMl1aaeiaRtemnf2KYljAO5EaS9GaDempOu+VLTiqiwMFwgg9tr6jrJnE4wSNHYkHTVADrZf1d6w==",
+  "dgSpecHash": "rGLrSIn5S4q4CbLxaokoymW1iXS57iwqjqil9M6aLu9qejbJ6TUTtZ+U0jApkGpjAkKjEGNIwJ4fSU/VrwjGww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\Documents\\Projetos DEV\\Prova\\Broker\\App.Broker\\App.Broker\\App.Broker.csproj",
+  "projectFilePath": "C:\\Users\\andre\\Documents\\GitHub\\Prova-Toro\\Prova\\Broker\\App.Broker\\App.Broker\\App.Broker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
